@@ -1,0 +1,118 @@
+/* Custom CSS for Earn Money Online */
+
+/* Base styles */
+body {
+  font-family: 'Inter', sans-serif;
+  color: #333;
+}
+
+/* Utility classes */
+.object-fit-cover {
+  object-fit: cover;
+}
+
+/* Hover effects */
+.hover-text-white:hover {
+  color: #fff !important;
+}
+
+/* Card transitions */
+.card {
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Button styles */
+.btn {
+  font-weight: 500;
+}
+
+.btn-danger {
+  background-color: #e41f2d;
+  border-color: #e41f2d;
+}
+
+.btn-danger:hover {
+  background-color: #c41b27;
+  border-color: #c41b27;
+}
+
+.btn-outline-danger {
+  color: #e41f2d;
+  border-color: #e41f2d;
+}
+
+.btn-outline-danger:hover {
+  background-color: #e41f2d;
+  border-color: #e41f2d;
+}
+
+/* Section spacing */
+section {
+  position: relative;
+}
+
+/* Image hover effects */
+.card-img-top {
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+/* Badge styles */
+.badge {
+  font-weight: 500;
+  padding: 0.5em 0.75em;
+}
+
+/* Quote styling */
+.fa-quote-left {
+  font-size: 1.5rem;
+  opacity: 0.15;
+}
+
+/* Join Over New Latter */
+.rounded-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+}
+
+/* Footer links hover */
+footer a:hover {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+/* Custom background colors */
+.bg-brand-red,
+.bg-danger {
+  background-color: #e41f2d !important;
+}
+
+.text-brand-red,
+.text-danger {
+  color: #e41f2d !important;
+}
+
+.copyright {
+  color: rgba(255, 255, 255, .5) !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .display-5 {
+    font-size: 2rem;
+  }
+
+  .fs-1 {
+    font-size: 2rem !important;
+  }
+}
